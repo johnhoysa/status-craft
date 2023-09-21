@@ -1,0 +1,9 @@
+/.env
+/.idea
+/.vscode
+/node_modules
+/vendor
+/storage/backups/
+/storage/runtime/
+/storage/userphotos/
+.DS_Store

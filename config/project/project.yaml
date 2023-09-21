@@ -1,0 +1,22 @@
+dateModified: 1695328622
+email:
+  fromEmail: johnhoysa@gmail.com
+  fromName: Status
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    05f0e8cb-9233-4d7e-897c-72b0dcf9c16e: Status # Status
+    3578ed22-3b70-417a-bda4-8e7e4edde313: Status # Status
+    562424f7-ba56-4570-be49-3ff0f35a156c: Common # Common
+system:
+  edition: solo
+  live: true
+  name: Status
+  schemaVersion: 4.5.3.0
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
