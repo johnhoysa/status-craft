@@ -9,21 +9,8 @@
 	</head>
 	<body>
 
-		<div
-			id="main">
-			{# Get the requested username #}
-			{% set requestedUsername = craft.app.request.getSegment(2) %}
-
-			{# Fetch that user #}
-			{% set user = craft.users()
-  .username(requestedUsername|literal)
-  .one() %}
-			<p>What is this -->
-				{{user}}</p>
-			{% for row in user.bike.all() %}
-				{{ row.alias }}
-			{% endfor %}
-
+		<div id="main">
+			Blog, just blogging
 		</div>
 
 

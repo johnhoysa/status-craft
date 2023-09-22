@@ -1,0 +1,9 @@
+siteUid: null
+sortOrder: 1
+template: users/_entry
+uriParts:
+  - users/
+  -
+    - '*'
+    - '[^\/]+'
+uriPattern: 'users/<any:[^\/]+>'
