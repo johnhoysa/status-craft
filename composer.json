@@ -1,6 +1,9 @@
 {
   "require": {
     "craftcms/cms": "^4.4.0",
+    "spicyweb/craft-neo": "3.9.0",
+    "verbb/cp-nav": "4.0.10",
+    "verbb/super-table": "3.0.9",
     "vlucas/phpdotenv": "^5.4.0"
   },
   "require-dev": {
@@ -27,5 +30,12 @@
     "post-root-package-install": [
       "@php -r \"file_exists('.env') || copy('.env.example.dev', '.env');\""
     ]
-  }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://composer.craftcms.com",
+      "canonical": false
+    }
+  ]
 }

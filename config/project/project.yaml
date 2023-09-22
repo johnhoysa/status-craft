@@ -1,4 +1,7 @@
-dateModified: 1695328622
+addresses:
+  fieldLayouts:
+    e619aba5-fac5-4d9a-a6fa-4d2678e9c85b: null
+dateModified: 1695400506
 email:
   fromEmail: johnhoysa@gmail.com
   fromName: Status
@@ -6,17 +9,35 @@ email:
 meta:
   __names__:
     05f0e8cb-9233-4d7e-897c-72b0dcf9c16e: Status # Status
+    36d7bdfa-763f-4ba1-b8ac-c50aa25ac11e: 'What is your riding style with this bike?' # What is your riding style with this bike?
+    930cd2e5-c351-4367-98b2-04453aec5c9a: 'What type of bike do you have?' # What type of bike do you have?
     3578ed22-3b70-417a-bda4-8e7e4edde313: Status # Status
     562424f7-ba56-4570-be49-3ff0f35a156c: Common # Common
+    a7455835-584e-40e0-8fe3-19e4922f5040: Entry # Entry
+    ab032260-67e4-4304-9b62-74265e0574df: Users # Users
+    b5def3e2-7878-4444-9add-6126322626f1: Blog # Blog
+    c01a1849-6d7a-4395-814e-41ddac2404d3: 'Bike Information' # Bike Information
+    c26baf0a-9602-427e-a5f6-1c609d7cf009: Default # Default
+    c70f6b3a-c4d9-4f78-a629-a141b30686ba: 'What is your bikes name?' # What is your bikes name?
+    dc15f8e8-3243-4d5c-8e8d-56a01acd61b8: Users # Users
+    e267bf7d-df82-4d0f-a1ab-88b76341d7a1: 'What is your bikes color?' # What is your bikes color?
+plugins:
+  cp-nav:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.11
+  neo:
+    edition: standard
+    enabled: true
+    licenseKey: OQJS0EFALBQ8YB96D4OAN8RY
+    schemaVersion: 3.6.2
+  super-table:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0
 system:
-  edition: solo
+  edition: pro
   live: true
   name: Status
   schemaVersion: 4.5.3.0
   timeZone: America/Los_Angeles
-users:
-  allowPublicRegistration: false
-  defaultGroup: null
-  photoSubpath: null
-  photoVolumeUid: null
-  requireEmailVerification: true

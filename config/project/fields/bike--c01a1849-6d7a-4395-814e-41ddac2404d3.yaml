@@ -1,0 +1,51 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: ab032260-67e4-4304-9b62-74265e0574df # Users
+handle: bike
+instructions: null
+name: 'Bike Information'
+searchable: false
+settings:
+  blockTypeFields: 0
+  changedFieldIndicator: 338771896
+  columns:
+    __assoc__:
+      -
+        - c70f6b3a-c4d9-4f78-a629-a141b30686ba # What is your bikes name?
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - 930cd2e5-c351-4367-98b2-04453aec5c9a # What type of bike do you have?
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - 36d7bdfa-763f-4ba1-b8ac-c50aa25ac11e # What is your riding style with this bike?
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - e267bf7d-df82-4d0f-a1ab-88b76341d7a1 # What is your bikes color?
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+  contentTable: '{{%stc_bike}}'
+  fieldLayout: row
+  maxRows: null
+  minRows: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  selectionLabel: 'Add a Bike'
+  staticField: null
+translationKeyFormat: null
+translationMethod: none
+type: verbb\supertable\fields\SuperTableField

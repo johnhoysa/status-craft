@@ -1,0 +1,19 @@
+tabs:
+  -
+    elementCondition: null
+    elements:
+      -
+        elementCondition: null
+        fieldUid: c01a1849-6d7a-4395-814e-41ddac2404d3 # Bike Information
+        instructions: null
+        label: null
+        required: false
+        tip: null
+        type: craft\fieldlayoutelements\CustomField
+        uid: 2286a742-2276-4693-8991-8b6a30251019
+        userCondition: null
+        warning: null
+        width: 100
+    name: Bike
+    uid: 95a739fa-37b2-4c4d-adf0-3f63dcc82b3e
+    userCondition: null

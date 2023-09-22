@@ -1,0 +1,242 @@
+changedFieldIndicator: 1396226766
+field: c01a1849-6d7a-4395-814e-41ddac2404d3 # Bike Information
+fieldLayouts:
+  cff7376f-05f2-4d89-b20d-12d57f85102a:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: c70f6b3a-c4d9-4f78-a629-a141b30686ba # What is your bikes name?
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a7b2ccac-4c21-4c69-93e2-5b851be166b6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 930cd2e5-c351-4367-98b2-04453aec5c9a # What type of bike do you have?
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9935c0d0-7da9-40dd-ada2-e8dbd91a5841
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 36d7bdfa-763f-4ba1-b8ac-c50aa25ac11e # What is your riding style with this bike?
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e19d8e71-535d-467f-873c-6aee7cc421e3
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e267bf7d-df82-4d0f-a1ab-88b76341d7a1 # What is your bikes color?
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b8dd52ef-4fdb-4c08-81ec-a5b8b2ad3389
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 46f81e41-9cbe-411b-ac78-077216611af7
+        userCondition: null
+fields:
+  36d7bdfa-763f-4ba1-b8ac-c50aa25ac11e: # What is your riding style with this bike?
+    columnSuffix: ozwkagcv
+    contentColumnType: string(13)
+    fieldGroup: null
+    handle: style
+    instructions: null
+    name: 'What is your riding style with this bike?'
+    searchable: false
+    settings:
+      columnType: null
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - 'Around Town Fun'
+            -
+              - value
+              - aroundTownFun
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Commuter
+            -
+              - value
+              - commuter
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Pro Slow'
+            -
+              - value
+              - 'Pro Slow'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Roadie
+            -
+              - value
+              - roadie
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Shredder
+            -
+              - value
+              - shredder
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Tourer
+            -
+              - value
+              - tourer
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  930cd2e5-c351-4367-98b2-04453aec5c9a: # What type of bike do you have?
+    columnSuffix: bcxpgama
+    contentColumnType: string(18)
+    fieldGroup: null
+    handle: genra
+    instructions: null
+    name: 'What type of bike do you have?'
+    searchable: false
+    settings:
+      columnType: null
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Commuter
+            -
+              - value
+              - commuter
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Gravel
+            -
+              - value
+              - gravel
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Road
+            -
+              - value
+              - road
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Mountain Bike'
+            -
+              - value
+              - mountainBike
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Mid 90s Restored Ride '
+            -
+              - value
+              - mid90sRestoredRide
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  c70f6b3a-c4d9-4f78-a629-a141b30686ba: # What is your bikes name?
+    columnSuffix: xvuengru
+    contentColumnType: string(128)
+    fieldGroup: null
+    handle: alias
+    instructions: 'What is your bikes name?'
+    name: 'What is your bikes name?'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: 32
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  e267bf7d-df82-4d0f-a1ab-88b76341d7a1: # What is your bikes color?
+    columnSuffix: zofdivru
+    contentColumnType: char(7)
+    fieldGroup: null
+    handle: color
+    instructions: null
+    name: 'What is your bikes color?'
+    searchable: false
+    settings:
+      defaultColor: '#8bb3cb'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Color
