@@ -1,7 +1,7 @@
 addresses:
   fieldLayouts:
     e619aba5-fac5-4d9a-a6fa-4d2678e9c85b: null
-dateModified: 1695403651
+dateModified: 1696610782
 email:
   fromEmail: johnhoysa@gmail.com
   fromName: Status
@@ -13,6 +13,7 @@ meta:
     930cd2e5-c351-4367-98b2-04453aec5c9a: 'What type of bike do you have?' # What type of bike do you have?
     3578ed22-3b70-417a-bda4-8e7e4edde313: Status # Status
     562424f7-ba56-4570-be49-3ff0f35a156c: Common # Common
+    a3d97ad8-80b8-42fc-8aec-c58d9a3bcab4: Components # Components
     a7455835-584e-40e0-8fe3-19e4922f5040: Entry # Entry
     ab032260-67e4-4304-9b62-74265e0574df: Users # Users
     b5def3e2-7878-4444-9add-6126322626f1: Blog # Blog
@@ -26,6 +27,10 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 2.0.11
+  elements-panel:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
   neo:
     edition: standard
     enabled: true
