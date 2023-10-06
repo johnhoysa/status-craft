@@ -159,17 +159,11 @@
 			{# Fetch the users #}
 			{% set users = myUserQuery.all() %}
 
-			{# Display the list #}
+			{# Display user list #}
 			<ul>
 				{% for user in users %}
 					<li>
 						<a href="users/{{user.username }}">{{ user.name }}</a>
-					</li>
-					<li>
-						<a href="users/Guest">users manual link</a>
-					</li>
-					<li>
-						<a href="blog/test-blog">blog manual link</a>
 					</li>
 				{% endfor %}
 			</ul>
